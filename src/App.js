@@ -18,13 +18,11 @@ function App() {
     <div>
       <Banner />
       <Buttons 
-        filterByType = {filterByType}
-        setSat = {setSat}
-        displaySats = {displaySats}
+        filterByType={filterByType}
+        setSat={setSat}
+        displaySats={displaySats}
       />
-      <Table 
-        sat = {sat}
-      />
+      <Table sat={sat} />
     </div>
   );
 }
